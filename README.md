@@ -1,6 +1,6 @@
-# 🌡️ Simplest DHT11 and ESP32 version
+# 🌡️ ESP32 & DHT11 Temperature / Humidity Sensor
 
-مشروع بسيط بلغة **MicroPython** يقرأ درجة الحرارة ونسبة الرطوبة باستخدام حساس **DHT11** ولوحة **ESP32**.
+مشروع بسيط وبسيط جداً لقراءة درجات الحرارة والرطوبة باستخدام لوحة ESP32 وحساس DHT11 باستخدام لغة MicroPython.
 
 ---
 
@@ -22,6 +22,25 @@
 
 ---
 
+## 📐 مخطط التوصيل (Wiring Diagram)
+
+![Wiring Diagram](assets/Circuit%20Connection.jpg)
+
+---
+
+## 📸 التوصيل الواقعي (Real Hardware Setup)
+
+![Hardware Setup](assets/breadboard-circuit.png)
+
+---
+
+## 🎬 التجربة الحية (Live Demo)
+
+![Project Demo](assets/Video.gif)
+
+---
+
 ## 🚀 التشغيل (Usage)
 
-ارفع ملف `main.py` على الـ ESP32 وافتح الـ Serial Monitor لرؤية القراءات كل ثانيتين.
+1. ارفع ملف `main.py` على بوردة ESP32 باستخدام برنامج Thonny IDE.
+2. شغل السكريبت وشوف القراءات بتظهر بشكل مباشر على الـ Shell.
